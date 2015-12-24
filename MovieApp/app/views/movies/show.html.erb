@@ -1,0 +1,18 @@
+<div class="main">
+  <div class="container">
+    <div class="movie">
+      <%=image_tag @movie.image%>
+      <p><%= @movie.title %></p>
+      <p><%= @movie.release_year %>
+    </div>
+    <div class="actors">
+      <%@actors.each do |a| %>
+      <div class="actor">
+        <%=image_tag a.image%>
+        <p><%=a.first_name%> <%=a.last_name%></p>
+        <%= link_to "Learn More", actor_path(a)%>
+      </div>
+      <%end%>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="main">
+  <div class="container">
+    <div class = "actor">
+      <%=image_tag @actor.image%>
+      <p><%=@actor.first_name%> <%=@actor.last_name%></p>
+      <p><%=@actor.bio%></p>
+    </div>
+    <%@movies.each do |m|%>
+    <div class ="movies">
+      <%=image_tag m.image%>
+      <p><%=m.title%></p>
+      <p><%=m.release_year%></p>
+    </div>
+    <%end%>
+  </div>
+</div>
