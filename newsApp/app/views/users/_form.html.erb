@@ -10,24 +10,11 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="field">
-    <%= f.label :first_name %><br>
-    <%= f.text_field :first_name %>
-  </div>
-  <div class="field">
-    <%= f.label :last_name %><br>
-    <%= f.text_field :last_name %>
-  </div>
-  <div class="field">
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
-  </div>
-  <div class="field">
-    <%= f.label :password %><br>
-    <%= f.text_field :password %>
-  </div>
+  <%= f.text_field :first_name, :placeholder => "First Name" %>
+  <%= f.text_field :last_name, :placeholder => "Last Name" %>
+  <%= f.text_field :email, :placeholder => "Last Name"  %>
+  <%= f.text_field :password, :placeholder => "Password" %>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Sign up", class: "btn-submit"%>
   </div>
 <% end %>

@@ -149,7 +149,6 @@ body {
   width: 600px;
   margin: 0 50px 50px;
 }
-
 form input, form textarea {
   border: 0;
   border-bottom: 2px solid transparent;
@@ -215,3 +214,6 @@ form textarea {
   }
 }
 
+#error_explanation ul li{
+  color: #000;
+}
