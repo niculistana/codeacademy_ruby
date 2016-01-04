@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BoltNetwork</title>
+  <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+<link href='https://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="nav-menu">
+  <div class="container">
+    <div class="header">
+      <div class="row">
+        <div class="col-md-2">
+          <a href="/">
+            <img src="http://s3.amazonaws.com/codecademy-content/projects/bolt-network/logo.svg" width="180" height="34">
+          </a>
+        </div>
+        <div class="pull-right">
+          <ul>
+            <li>Log in</li>
+            <li>
+              <a href="#" class="btn btn-default">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
