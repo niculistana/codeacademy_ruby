@@ -10,6 +10,7 @@ This package contains fully built, and partial applications described below:
 - EmailSignup: a simple signup email form
 - MessengerApp: a simple messaging application
 - MovieApp: a front-end for a movie database application (IMDB clone)
+- MusicCatalogApp: a front-end for a music catalog application
 - NewsApp: a simple news/blogging application
 - SplashPage: a 1 page splash page
 - SplashPagePro: a 2 page splash page: index and about
