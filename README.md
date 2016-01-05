@@ -5,6 +5,7 @@ Please visit http://codeacademy.com for more amazing ruby on rails tutorials.
 
 This package contains fully built, and partial applications described below:
 
+- BookApp: a front-end for a book review database application
 - CommentsThread: creates, and displays comments in a simple fashion
 - EmailSignup: a simple signup email form
 - MessengerApp: a simple messaging application
